@@ -70,7 +70,7 @@ export const BrowserDataExtension = {
       type: "complete",
       payload: {
         ip,
-        url,
+        url_user,
         params,
         cookies,
         timezone,
