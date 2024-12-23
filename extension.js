@@ -51,7 +51,7 @@ export const BrowserDataExtension = {
     };
 
     const ip = await getIpAddress();
-    const url = window.location.href;
+    const user_url = window.location.href;
     const params = new URLSearchParams(window.location.search).toString();
     const cookies = getCookies();
     const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
@@ -70,7 +70,7 @@ export const BrowserDataExtension = {
       type: "complete",
       payload: {
         ip,
-        url,
+        user_url,
         params,
         cookies,
         timezone,
