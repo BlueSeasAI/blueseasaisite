@@ -52623,7 +52623,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             e &&
               Me.jsxs(Ak, {
                 children: [
-                  "Powered by",
+                  "⚡ Powered by",
                   Me.jsx("a", {
                     target: "_blank",
                     href: "https://www.blueseas.ai/",
