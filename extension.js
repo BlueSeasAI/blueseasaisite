@@ -51,7 +51,7 @@ export const BrowserDataExtension = {
     };
 
     const ip = await getIpAddress();
-    const user_url = window.location.href;
+    const url = window.location.href;
     const params = new URLSearchParams(window.location.search).toString();
     const cookies = getCookies();
     const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
@@ -70,7 +70,7 @@ export const BrowserDataExtension = {
       type: "complete",
       payload: {
         ip,
-        user_url,
+        url,
         params,
         cookies,
         timezone,
@@ -144,7 +144,7 @@ export const MultiSelectExtension = {
 
     multiSelectContainer.innerHTML = `
       <style>
-        @import user_url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
         
         .multi-select-form-unique {
           display: flex;
@@ -533,7 +533,7 @@ export const DropdownExtension = {
 
     formContainer.innerHTML = `
     <style>
-      @import user_url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
       
       .dropdown-extension-form {
         width: 400px; 
