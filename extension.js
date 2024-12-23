@@ -144,7 +144,7 @@ export const MultiSelectExtension = {
 
     multiSelectContainer.innerHTML = `
       <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+        @import user_url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
         
         .multi-select-form-unique {
           display: flex;
@@ -533,7 +533,7 @@ export const DropdownExtension = {
 
     formContainer.innerHTML = `
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+      @import user_url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
       
       .dropdown-extension-form {
         width: 400px; 
